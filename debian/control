@@ -1,0 +1,20 @@
+Source: pi-bluetooth+re4son
+Section: admin
+Priority: optional
+Maintainer: Re4son Protagonist <re4son@whitedome.com.au>
+Build-Depends: debhelper (>=9),
+               systemd,
+               dh-systemd
+Standards-Version: 4.1.1
+Homepage: https://www.whitedome.com.au/re4son/re4son-kernel
+Vcs-Git: https://github.com/re4son/pi-bluetooth-re4son.git
+Vcs-Browser: https://github.com/re4son/pi-bluetooth-re4son.git
+
+Package: pi-bluetooth+re4son
+Architecture: all
+Depends: bluez (>= 5.43), bluez-firmware
+Description: Bluetooth services and rules for Raspberry Pi
+ This package contains services and udev rules required for Bluez
+ to work with the Broadcom bluetooth chip found in the Raspberry Pi 3 & Zero W
+
+

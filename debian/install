@@ -1,0 +1,3 @@
+99-com.rules etc/udev/rules.d
+hciuart.service lib/systemd/system
+btuart usr/bin
