@@ -24,7 +24,4 @@
 #	dh_auto_configure -- #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
 override_dh_systemd_enable:
-	dh_systemd_enable hciuart.service
-
-override_dh_systemd_start:
-	dh_systemd_start --restart-after-upgrade hciuart.service
+	dh_installsystemd --restart-after-upgrade hciuart.service
