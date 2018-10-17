@@ -11,6 +11,8 @@ Vcs-Git: https://github.com/re4son/pi-bluetooth-re4son.git
 Vcs-Browser: https://github.com/re4son/pi-bluetooth-re4son.git
 
 Package: pi-bluetooth+re4son
+Provides: pi-bluetooth
+Replaces: pi-bluetooth
 Architecture: all
 Depends: bluez (>= 5.43), bluez-firmware
 Description: Bluetooth services and rules for Raspberry Pi

@@ -1,9 +1,11 @@
 Package: pi-bluetooth+re4son
-Version: 2.1
+Version: 2.2
 Architecture: all
 Maintainer: Re4son Protagonist <re4son@whitedome.com.au>
-Installed-Size: 23
+Installed-Size: 22
 Depends: bluez (>= 5.43), bluez-firmware
+Replaces: pi-bluetooth
+Provides: pi-bluetooth
 Section: admin
 Priority: optional
 Homepage: https://www.whitedome.com.au/re4son/re4son-kernel

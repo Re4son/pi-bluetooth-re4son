@@ -1,4 +1,4 @@
 39be8614fbdcbbbaf7059e342332e813  lib/systemd/system/hciuart.service
-c9aea62aed5f635169a1c7a1a909eebb  usr/bin/btuart
-d41f5254fd7e0c519edbaf2692712bc2  usr/share/doc/pi-bluetooth+re4son/changelog.gz
+9365b2dcd213aace87f1686a96873f22  usr/bin/btuart
+7235da2f20c1737b7bebd3191383cac1  usr/share/doc/pi-bluetooth+re4son/changelog.gz
 9546f1d6cb13ebdcd295999b455d1d69  usr/share/doc/pi-bluetooth+re4son/copyright

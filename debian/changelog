@@ -1,3 +1,9 @@
+pi-bluetooth+re4son (2.2) kali-rolling; urgency=medium
+
+  * Send btattached to background
+
+ -- Re4son <re4son@users.noreply.github.com>  Wed, 17 Oct 2018 13:23:31 +1100
+
 pi-bluetooth+re4son (2.1) kali-rolling; urgency=medium
 
   * Replaced hciattached with btattached
